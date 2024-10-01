@@ -1,0 +1,595 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* main {
+      padding-left: 3vh;
+      padding-right: 3vh;
+  } */
+
+/*              Header                 */
+
+.header-1 {
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(252, 206, 0);
+    padding: 1vh;
+    margin-bottom: 8vh;
+}
+
+.section-1 {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(252, 206, 0);
+
+
+}
+
+.section-1 div img {
+    width: 12vh;
+}
+
+.section-1 div img:hover {
+    filter: saturate(2);
+}
+
+.section-1-div1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.section-1-div2 {
+    /* border: 1px solid black; */
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.section-1-div2 a {
+    text-decoration: none;
+    font-size: 1.4vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: white;
+    padding: 1.2vh 1.4vh 1.2vh 1.4vh;
+    border-radius: 2vh;
+    background-color: #a602db;
+}
+
+.section-1-div2 a:hover {
+
+    padding: 1.2vh 1.4vh 1.2vh 1.4vh;
+    ;
+    /* background-color: #6d0191; */
+    filter: saturate(2);
+}
+
+.section-1-div3 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.ion-header {
+    font-size: 3vh;
+    color: #a602db;
+    margin-right: 1vh;
+}
+
+.ion-header:hover {
+    /* color: #6d0191; */
+    filter: saturate(2);
+}
+
+/*               Main parte 1               */
+
+
+.section-2 {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+}
+
+/*                Main Parte 2              */
+
+.section-3 {
+    background-color: #fcfcfc;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0vh 2vh;
+}
+
+.section-3-div1 {
+    background-color: #FFBD25;
+    border-radius: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5vh 0vh;
+    margin-top: 3vh;
+    color: rgb(255, 255, 255);
+}
+
+.section-3-div1 h1 {
+    background-color: #8A05BE;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    padding: 2vh;
+    margin-bottom: 4vh;
+    border-radius: 50px;
+    font-size: 3vh;
+
+}
+
+.section-3-div1 h1:hover {
+    filter: saturate(2);
+    cursor: pointer;
+}
+
+.section-3-div2 {
+    /* width: 100%; */
+    /* padding: 0vh 15vh 7vh 15vh; */
+    /* background-color: #FFBD25; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.section-3-div2 img {
+    width: 30vh;
+    height: auto;
+    margin-right: 3vh;
+    margin-bottom: 3vh;
+    border-radius: 3vh;
+}
+
+.section-3-div2 img:hover {
+    filter: saturate(1.5);
+}
+
+
+
+/*               Main parte 3            */
+
+.section-4 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 5vh 10vh;
+}
+
+.section-4-div1 {
+    width: 30%;
+    /* border: 1px solid black; */
+    padding: 0vh 5vh 4vh 5vh;
+    border-radius: 3vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.card1 {
+    background-color: #8A05BE;
+    color: #FFBD25;
+}
+
+.card1 a {
+    background-color: #FFBD25;
+    color: #8A05BE;
+    padding: 1vh;
+    border-radius: 1vh;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.card1 h2 {
+    padding-top: 2vh;
+}
+
+.card2 h2 {
+    padding-top: 2vh;
+}
+
+.card2 {
+    background-color: #FFBD25;
+    color: #8A05BE;
+}
+
+.card2:hover {
+    filter: saturate(1.15);
+    transform: scale(1.05);
+}
+
+.card2 a {
+    background-color: #8A05BE;
+    color: #FFBD25;
+    padding: 1vh;
+    border-radius: 1vh;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.card1:hover {
+    filter: saturate(1.1);
+    transform: scale(1.05);
+}
+
+.section-4-div1 img {
+    width: 30vh;
+    filter: saturate(1.5);
+}
+
+.divisor {
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    /* border: 1px solid black; */
+}
+
+.ion-divisor-1 {
+    font-size: 15vh;
+    color: #8A05BE;
+}
+
+.ion-divisor-2 {
+    font-size: 15vh;
+    color: #FFBD25;
+}
+
+.divisor h2 {
+    font-size: 10vh;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+/*            Main Parte 4              */
+
+.section-5 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vh 5vh 2vh 0vh;
+}
+
+.section-5-div1 {
+    width: 50%;
+}
+
+.section-5-div1 img {
+    width: 50vh;
+}
+
+.gif {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    padding: 4vh 10vh 4vh 20vh;
+    background-color: #FFBD25;
+    border-top-right-radius: 5vh;
+    border-bottom-right-radius: 5vh;
+    color: #8A05BE;
+    font-weight: 600;
+
+}
+
+.info h1 {
+    font-weight: 800;
+    font-size: 3.5vh;
+    padding-bottom: 2vh;
+}
+
+/*                Footer                   */
+
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5vh;
+    padding-top: 5vh;
+    padding-bottom: 2vh;
+    background-color: rgb(216, 216, 216);
+}
+
+.footer-div1 {
+    color: #8A05BE;
+    width: 50%;
+    text-align: center;
+}
+
+.footer-div1 h4 {
+    font-size: 2vh;
+}
+
+.ionfooter {
+    width: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*           Página de pruduto açai    sectionacai1         */
+
+
+.sectionacai-1 {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/backgroundaçai.png);
+    background-size: cover;
+    text-align: center;
+}
+
+.sectionacai-1 div h1 {
+    text-align: center;
+    font-size: 15vh;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #FFBD25;
+}
+
+.sectionacai-1 div p {
+    font-size: 2vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+/*           sectionacai2           */
+
+.sectionacai-2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 4vh 0vh 2vh 0vh;
+}
+
+.sectionacai-2-div1 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+h5 {
+    font-size: 3vh;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+}
+
+.card {
+  margin-top: 2vh;  
+  padding: 2vh;
+  border-radius: 5vh;
+}
+
+.btn.btn-primary {
+    margin-top: 2vh;
+    background-color: #8A05BE;
+    border: none;
+}
+
+.btn.btn-primary:hover {
+    filter: saturate(2);
+}
+
+
+
+
+/*               Section Cupuaçu              */
+
+
+.sectioncupuacu-1 {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/backgroundcupu.png);
+    background-size: cover;
+    text-align: center;
+}
+
+.sectioncupuacu-2-div1 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.sectioncupuacu-1 div h1 {
+    text-align: center;
+    font-size: 15vh;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #8A05BE;
+}
+
+.sectioncupuacu-1 div p {
+    font-size: 2vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+}
+.hc {
+    margin-top: 2vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*                 Responsividade                 */
+
+@media (max-width: 1024px) {
+
+    /* Pagina Inicial */
+
+    section.section-1 {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .header-1 {
+        margin-bottom: 18vh;
+    }
+
+
+    .section-1-div1 .section-1-div2 .section-1-div3 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .section-1-div3 {
+        padding-top: 2vh;
+    }
+
+    .section-3-div1 h1 {
+        font-size: 2vh;
+    }
+
+    .section-3-div2 img {
+        width: 15vh;
+    }
+
+    .section-4 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        padding: 5vh 3vh;
+    }
+
+    .section-4-div1 {
+        width: 100%;
+        /* border: 1px solid black; */
+        /* padding: 0vh 5vh 4vh 5vh; */
+        border-radius: 3vh;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .divisor {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 10%;
+        /* border: 1px solid black; */
+        transform: rotate(90deg);
+    }
+
+    .divisor h2 {
+        font-size: 4vh;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+    .ion-divisor-1 {
+        font-size: 8vh;
+        color: #8A05BE;
+    }
+
+    .ion-divisor-2 {
+        font-size: 8vh;
+        color: #FFBD25;
+    }
+
+    .section-5 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2vh 2vh 2vh 2vh;
+    }
+
+    .section-5-div1 {
+        width: 100%;
+    }
+
+    .section-5-div1 img {
+        width: 35vh;
+        padding-top: 5vh;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        padding: 4vh;
+        background-color: #FFBD25;
+        border-radius: 5vh;
+        color: #8A05BE;
+        font-weight: 600;
+        text-align: center;
+
+    }
+
+    .footer {
+        margin: 0;
+        padding: 2vh;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    .footer-div1 {
+        width: 100%;
+    }
+
+    .footer-div1 h4 {
+        font-size: 1.5vh;
+    }
+
+    /*        Página produto açai            */
+
+    .sectionacai-1 {
+        padding-top: 20vh;
+    }
+
+    /* Pagina produto cupuacu */
+
+    .sectioncupuacu-1 {
+        padding-top: 20vh;
+    }
+
+
+}
